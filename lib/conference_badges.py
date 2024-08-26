@@ -8,7 +8,7 @@ def assign_rooms(names):
     rooms = range(1,9)
 
     for room in rooms:
-        
+        assignments.append(f'Hello, {names[room - 1]}! You\'ll be assigned to room {room}!')
 
 def printer(names):
     return None
