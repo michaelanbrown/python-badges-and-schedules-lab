@@ -16,3 +16,4 @@ def assign_rooms(names):
 
 def printer(names):
     for badge in batch_badge_creator(names):
+        print(badge)
