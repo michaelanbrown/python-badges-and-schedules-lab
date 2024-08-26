@@ -7,5 +7,8 @@ def batch_badge_creator(names):
 def assign_rooms(names):
     rooms = range(1,9)
 
+    for room in rooms:
+        
+
 def printer(names):
     return None
